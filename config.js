@@ -41,23 +41,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['ur number'] //ur owner number
-global.ownername = "ur name"
+global.owner = ['994404709088'] //ur owner number
+global.ownername = "Klein_𝑳𝑺"
 global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.socialm = "insta: Klein_200273" //ur github or insta name
+global.location = "Saudi Arabia" //ur location
 
 //bot bombdy
-global.botname = "ur bot name" //ur bot name
-global.websitex = "https://youtu.be/xn9RatOrbuI" //ur website
+global.botname = "Leza_𝑳𝑺🐥" //ur bot name
+global.websitex = "https://2u.pw/SV1GQ" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
 global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
 global.author = "🦄Dream Guy Xeon"
 global.themeemoji = "🐶"
 global.reactmoji = "😘"
-global.ownertag = ['ur number'] //ur owner tag
-global.ownernummenu = ['ur number'] //ur owner number in menu and all
-global.watermark = "Xeon Bot Inc." //ur watermark
+global.ownertag = ['994404709088'] //ur owner tag
+global.ownernummenu = ['994404709088'] //ur owner number in menu and all
+global.watermark = "Klein_𝑳𝑺." //ur watermark
 global.botscript = "https://github.com/DGXeon/CheemsBot-MD3"
 global.linkz1 = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"
 global.linkz2 = "https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd"
@@ -92,21 +92,21 @@ global.ntilink = []
 global.lolhuman = "KaysaS"
 global.sessionName = "session"
 global.antitags = true
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['','!','.','🐦','🐤','🗿','/']
 global.mess = {
     success: 'Done✓',
-    admin: 'This feature is only for admins!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This feature is only for owner',
-    group: 'This feature is only for groups!',
-    private: 'This feature is only for private chats!',
-    bot: 'This feature is only for bot',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
-    error: 'Error!',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    admin: '😇هذا الأمر مخصص للمشرفين فقط',
+    botAdmin: '🐥أحتاج لاشراف لتنفيذ هذا الطلب',
+    owner: 'Klein_𝑳𝑺 الامر خاص بصاحب البوت ',
+	group: '!هذا الأمر مخصص للمجموعات',
+    private: '👀الامر مخصص للمحادثات فالخاص',
+    bot: '🐥امر خاص بالبوت',
+    wait: '. . .قيد التنفيذ',
+    linkm: 'أين الرابط؟',
+    error: '!!خطأ',
+    ban: 'تم تقييد خدمات البوت عنك من قبل المالك, تواصل مع المالك لفك التقييد',
+    nsfw: '🔪🐥وش تدور يالوصخ',
+    banChat:  'تم تقييد خدمات البوت في هذه المجموعه, الرجاء التواصل مع كلاين لفك التقييد',
 }
 global.limitawal = {
     premium: "Infinity",
