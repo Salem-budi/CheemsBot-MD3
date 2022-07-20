@@ -1600,7 +1600,7 @@ if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 	                let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube 🍒',
+                                    displayText: '🦊انستا',
                                     url: `${websitex}`
                                 }
                             }, {
@@ -1610,17 +1610,17 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu 🍱',
+                                    displayText: '📋جميع القوائم',
                                     id: 'allmenu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu 🍢',
+                                    displayText: '💾قائمة الاوامر',
                                     id: 'command'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner 🤣',
+                                    displayText: '🦊مالك البوت',
                                     id: 'owner'
                                 }
                             }]
@@ -1635,11 +1635,11 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                         XeonBotInc.send5ButMsg(m.chat, menulist, global.botname, btn)
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
-        	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
+        	{ urlButton: { displayText: `🦊انستا`, url : `${websitex}` } },
             { urlButton: { displayText: `Script 🍜`, url: `${botscript}` } },
-            { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
-            { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
+            { quickReplyButton: { displayText: `📋جميع القوائم`, id: 'allmenu'} },
+            { quickReplyButton: { displayText: `💾قائمة الاوامر`, id: 'command'} },
+            { quickReplyButton: { displayText: `🦊مالك البوت`, id: 'owner'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                         }
@@ -1651,11 +1651,11 @@ if (isBan) return reply(mess.ban)
 if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 let buttonmenu = [
-        	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
+        	{ urlButton: { displayText: `🦊انستا`, url : `${websitex}` } },
             { urlButton: { displayText: `Script 🍜`, url: `${botscript}` } },
-            { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
-            { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
+            { quickReplyButton: { displayText: `📋جميع القوائم`, id: 'allmenu'} },
+            { quickReplyButton: { displayText: `💾قائمة الاوامر`, id: 'command'} },
+            { quickReplyButton: { displayText: `🦊مالك البوت`, id: 'owner'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
         	break
@@ -1664,7 +1664,7 @@ case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case '
 if (isBanChat) return reply(mess.banChat)
 teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🍜`
 let buttons = [
-{buttonId: `menu`, buttonText: {displayText: 'Menu 🌺'}, type: 1}
+{buttonId: `menu`, buttonText: {displayText: '📑القائمه التعريفيه'}, type: 1}
 ]
 let buttonMessage = {
 image: thum,
@@ -1706,10 +1706,10 @@ case 'me': case 'inventory': case 'profile':{
      teksehmazeh += `*🐘Elephant* : ${getGajah(m.sender)}\n\n`
      teksehmazeh += `_*${pushname}*_`
      let butRun = [
-        	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
+        	{ urlButton: { displayText: `🦊انستا`, url : `${websitex}` } },
         	{ urlButton: { displayText: `Script 🍜`, url : `${botscript}` } },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'}},
-            { quickReplyButton: { displayText: `Leaderboard 🎢`, id: 'leaderboard'} }
+            { quickReplyButton: { displayText: `🦊مالك البوت`, id: 'owner'}},
+            { quickReplyButton: { displayText: `المتصدرين 🎢`, id: 'leaderboard'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: teksehmazeh, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `Want to adventure again?`, templateButtons: butRun, footer: `${botname}`, mentions: [m.sender] })
         	}
